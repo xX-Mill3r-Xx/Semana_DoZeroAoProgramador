@@ -1,0 +1,6 @@
+Semana do zero ao programador contratado.
+Evendo que acontece em 08/05 a 14/05 de 2023
+
+Neste evento, desenvolvemos uma pokedex do desenho pokemon usando HTML/CSS e JavaScript
+
+@vascodeveloper - 2023millervasco© →↑BBA↓↑B↓↑B
