@@ -5,11 +5,11 @@ header{
 }
 
 header .logo{
-    width: 30px;
+    width: 18px;
 }
 
 .imagem-botao{
-    width: 30px;
+    width: 18px;
     float: right;
 }
 
@@ -31,23 +31,33 @@ button{
 }
 
 .cartao-pokemon {
-    width: 150px;
+    background-color: rgb(130, 133, 133);
+    width: 160px;
     margin: 10px;
+    padding: 12px;
+    border: 1px solid black;
+    border-radius: 9px;
 }
 
+.informacoes{
+    padding: 3px;
+    text-align: center;
+    border: 1px solid white;
+    border-radius: 3px;
+}
 
 .gif{
-    width: 60px;
-    padding-top: 9px;
+    width: 45px;
+    padding-top: 6px;
     padding-bottom: 9px;
     display: block;
 }
 
 .tipos{
     display: flex;
+    flex-direction: row;
     gap: 5px;
     text-align: center;
-    background-color: antiquewhite;
 }
 
 .tipos .tipo-grama{
@@ -66,5 +76,12 @@ button{
 
 .descricao{
     padding-top: 9px;
-    background-color: blue;
+}
+
+footer{
+    font-size: 0.6em;
+    text-align: center;
+    width: 100%;
+    height: 60px;
+    position: fixed;
 }
