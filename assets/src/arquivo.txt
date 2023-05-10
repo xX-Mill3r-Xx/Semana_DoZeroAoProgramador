@@ -4,3 +4,58 @@ Evendo que acontece em 08/05 a 14/05 de 2023
 Neste evento, desenvolvemos uma pokedex do desenho pokemon usando HTML/CSS e JavaScript
 
 @vascodeveloper - 2023millervasco© →↑BBA↓↑B↓↑B
+
+<!--HEADER HTML-->
+    <header class="header">
+        <nav class="nav">
+            <a class="icon" href="https://github.com/xX-Mill3r-Xx" target="_blank"><img src="assets/img/github.svg" alt="github"></a>
+            <a class="icon" href="#"><img src="assets/img/linkedin.svg" alt="linkedin"></a>
+            <a class="icon" href="#"><img src="assets/img/insta.svg" alt="instagran"></a>
+            <a class="icon" href="#"><img src="assets/img/face.svg" alt="facebook"></a>
+            <a class="icon" href="#"><img src="assets/img/whatsapp.svg" alt="whatsapp"></a>
+            <a class="icon" href="#"><img src="assets/img/email.svg" alt="email"></a>
+        </nav>
+        <h1>Pokedex</h1>
+        <p>Evento do zero ao programador contratado 08/05 a 14/05 de 2023</p>
+        <nav class="image">
+            <a href="#"><img class="pokebola" src="assets/img/pokebola_image.png" alt="pokebola"></a>
+            <a href="#"><img class="sol" src="assets/img/projeto/sun.png" alt="sol"></a>
+            <a href="#"><img class="lua" src="assets/img/projeto/moon.png" alt="lua"></a>
+        </nav>
+    </header>
+    <!--HEADER-->
+
+    /*HEADER CSS*/
+.header{
+    text-align: center;
+}
+
+.header h1{
+    font-size: 30px;
+}
+
+.header p{
+    font-size: 9px;
+}
+
+.nav{
+    margin: 0 18px;
+}
+
+.nav .icon{
+    margin: 0 6px;
+}
+
+.image img{
+    margin: 0 30px;
+    width: 24px;
+    float: left;
+}
+.image .sol{
+    float: right;
+}
+
+.image .lua{
+    float: right;
+}
+/*HEADER*/

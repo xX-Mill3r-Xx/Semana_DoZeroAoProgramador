@@ -1,21 +1,71 @@
-/*HEADER*/
-.header{
+header{
+    display: flex;
+    margin: 9px;
+    padding: 9px;
+}
+
+header .logo{
+    width: 30px;
+}
+
+.imagem-botao{
+    width: 30px;
+    float: right;
+}
+
+button{
+    background-color: transparent;
+    border: none;
+}
+
+main .listagem-pokemon{
+    flex-flow: row;
+    align-items: center;
+}
+
+.cartao-pokemon{
+    background-color: cadetblue;
+}
+
+.listagem-pokemon{
+    display: flex;
+    gap: 18px;
+}
+
+.listagem-pokemon li{
+    padding-top: 9px;
     text-align: center;
 }
 
-.header h1{
-    font-size: 30px;
+.gif{
+    width: 60px;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    display: block;
 }
 
-.header p{
-    font-size: 9px;
+.tipos{
+    display: flex;
+    gap: 5px;
+    text-align: center;
+    background-color: antiquewhite;
 }
 
-.nav{
-    margin: 0 18px;
+.tipos .tipo-grama{
+    padding: 9px;
+    margin: 3px;
+    background-color: rgb(18, 168, 18);
+    border-radius: 9px
 }
 
-.nav .icon{
-    margin: 0 6px;
+.tipos .tipo-veneno{
+    padding: 9px;
+    margin: 3px;
+    background-color: rgb(179, 22, 113);
+    border-radius: 9px
 }
-/*HEADER*/
+
+.descricao{
+    padding-top: 9px;
+    background-color: blue;
+}
