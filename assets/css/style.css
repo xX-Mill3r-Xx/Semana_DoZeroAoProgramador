@@ -18,24 +18,23 @@ button{
     border: none;
 }
 
-main .listagem-pokemon{
-    flex-flow: row;
-    align-items: center;
-}
-
-.cartao-pokemon{
-    background-color: cadetblue;
-}
-
-.listagem-pokemon{
+.conjunto-pokemon {
     display: flex;
-    gap: 18px;
+    justify-content: center;
 }
 
-.listagem-pokemon li{
-    padding-top: 9px;
-    text-align: center;
+.listagem-pokemon {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    overflow-x: hidden;
 }
+
+.cartao-pokemon {
+    width: 150px;
+    margin: 10px;
+}
+
 
 .gif{
     width: 60px;
